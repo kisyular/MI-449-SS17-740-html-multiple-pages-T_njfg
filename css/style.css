@@ -1,0 +1,50 @@
+nav {
+  margin: 0 20px;
+}
+
+.col-sm-4 {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+p {
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.webTitle {
+  font-weight: bold;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.releaseDate {
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 18px;
+}
+
+img {
+  margin: 20px 0;
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media only screen and (max-width: 780px) {
+  p {
+    padding: 0 10px;
+  }
+  nav {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .navbar-brand {
+    text-align: center;
+    float: none;
+  }
+}
