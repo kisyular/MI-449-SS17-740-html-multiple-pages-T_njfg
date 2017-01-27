@@ -44,7 +44,7 @@ img {
     text-align: center;
   }
   .navbar-brand {
-    text-align: center;
-    float: none;
+    display: none;
   }
+
 }
